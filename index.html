@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch and Display the Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-4"><b class="text-primary">Hello from Fake Facebook</b> </h1>
+        <p class="lead">This is a simplify version of Facebook News Feed to let you post blogs easier than the real FB</p>
+        <p>It utilize the use of JavaScript fetch to fetch data from server for some dummy data so that you won't feel you're the only one who use this</p>
+        <hr class="my-4">
+        <h2>Write Posts</h2>
+        <form id="post-form">
+
+            <div class="input-group mb-3">
+                <input type="text" id="title" class="form-control text-center" placeholder="Title" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" id="body" class="form-control text-center" placeholder="Title" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    <div class="container">
+        <ul id="posts" class="list-group"></ul>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
